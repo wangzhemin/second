@@ -1,0 +1,8 @@
+安装git
+建立文件夹 
+git init初始化
+git add  上传文件  （git add index.html）
+git status 查看状态	
+git rm --cached 文件（git rm --cached index.html）
+git add *.html 把所有html文件上传上去
+git add.  把所有文件都上传上去   
