@@ -7,4 +7,4 @@ git rm --cached 文件（git rm --cached index.html）
 git add *.html 把所有html文件上传上去
 git add.  把所有文件都上传上去   
 git commit 注释一下
-修改了文件后  git commit -m‘changed index.html’完成注释和提交
+修改了文件后  git commit -m‘changed index.html 完成注释和提交
