@@ -8,3 +8,15 @@ git add *.html 把所有html文件上传上去
 git add.  把所有文件都上传上去   
 git commit 注释一下
 修改了文件后  git commit -m‘changed index.html 完成注释和提交
+type nul>   ---（windows中指令创建文件的方法 类似linux中的touch）
+type nul>.gitignore
+
+
+在.gitignore中写 想被忽略的文件或者文件夹 such as
+（
+ignore.txt
+/ignore2
+）
+
+git branch name 创建分支 
+git checkout name 切换到分支里
