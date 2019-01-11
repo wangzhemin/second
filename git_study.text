@@ -1,22 +1,24 @@
-°²×°git
-½¨Á¢ÎÄ¼ş¼Ğ 
-git init³õÊ¼»¯
-git add  ÉÏ´«ÎÄ¼ş  £¨git add index.html£©
-git status ²é¿´×´Ì¬	
-git rm --cached ÎÄ¼ş£¨git rm --cached index.html£©
-git add *.html °ÑËùÓĞhtmlÎÄ¼şÉÏ´«ÉÏÈ¥
-git add.  °ÑËùÓĞÎÄ¼ş¶¼ÉÏ´«ÉÏÈ¥   
-git commit ×¢ÊÍÒ»ÏÂ
-ĞŞ¸ÄÁËÎÄ¼şºó  git commit -m¡®changed index.html Íê³É×¢ÊÍºÍÌá½»
-type nul>   ---£¨windowsÖĞÖ¸Áî´´½¨ÎÄ¼şµÄ·½·¨ ÀàËÆlinuxÖĞµÄtouch£©
+å®‰è£…git
+å»ºç«‹æ–‡ä»¶å¤¹ 
+git initåˆå§‹åŒ–
+git add  ä¸Šä¼ æ–‡ä»¶  ï¼ˆgit add index.htmlï¼‰
+git status æŸ¥çœ‹çŠ¶æ€	
+git rm --cached æ–‡ä»¶ï¼ˆgit rm --cached index.htmlï¼‰
+git add *.html æŠŠæ‰€æœ‰htmlæ–‡ä»¶ä¸Šä¼ ä¸Šå»
+git add.  æŠŠæ‰€æœ‰æ–‡ä»¶éƒ½ä¸Šä¼ ä¸Šå»   
+git commit æ³¨é‡Šä¸€ä¸‹
+ä¿®æ”¹äº†æ–‡ä»¶å  git commit -mâ€˜changed index.html å®Œæˆæ³¨é‡Šå’Œæäº¤
+type nul>   ---ï¼ˆwindowsä¸­æŒ‡ä»¤åˆ›å»ºæ–‡ä»¶çš„æ–¹æ³• ç±»ä¼¼linuxä¸­çš„touchï¼‰
 type nul>.gitignore
 
 
-ÔÚ.gitignoreÖĞĞ´ Ïë±»ºöÂÔµÄÎÄ¼ş»òÕßÎÄ¼ş¼Ğ such as
-£¨
+åœ¨.gitignoreä¸­å†™ æƒ³è¢«å¿½ç•¥çš„æ–‡ä»¶æˆ–è€…æ–‡ä»¶å¤¹ such as
+ï¼ˆ
 ignore.txt
 /ignore2
-£©
+ï¼‰
 
-git branch name ´´½¨·ÖÖ§ 
-git checkout name ÇĞ»»µ½·ÖÖ§Àï
+git branch fenzhiname åˆ›å»ºåˆ†æ”¯ 
+git checkout fenzhiname åˆ‡æ¢åˆ°åˆ†æ”¯é‡Œ
+git checkout master åˆ‡æ¢åˆ°ä¸»çº¿
+git merge  fenzhiname æŠŠåˆ†æ”¯å’Œä¸»çº¿åˆå¹¶
