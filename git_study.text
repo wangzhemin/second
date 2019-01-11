@@ -22,3 +22,6 @@ git branch fenzhiname 创建分支
 git checkout fenzhiname 切换到分支里
 git checkout master 切换到主线
 git merge  fenzhiname 把分支和主线合并
+git remote add origin https://github.com/wangzhemin/second.git
+与远程仓库对接
+git push -u origin master  push进远程仓库
