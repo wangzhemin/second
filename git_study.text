@@ -1,4 +1,4 @@
-安装git
+﻿安装git
 建立文件夹 
 git init初始化
 git add  上传文件  （git add index.html）
@@ -18,9 +18,20 @@ ignore.txt
 /ignore2
 ）
 
+git reflog查看版本号
+git reset --hard HEAD^ 回退一个版本
+git reset --hard HEAD^commit-id 回退指定版本（commit-id为版本号前面）
+git reset --(soft|mixed|hard) HEAD~(num）
+--hard 回退全部（HEAD ,index，working tree）
+--mixed 回退部分（HEAD ,index 默认的）
+--soft 只回退HEAD
+git diff 查看工作区与暂存区的区别
 git branch fenzhiname 创建分支 
 git checkout fenzhiname 切换到分支里
 git checkout master 切换到主线
+git checkout -b dev_wzm创建并切换分支
+git branch -d dev_wzm删除本地分支
+git push origin -d dev删除远程分支
 git merge  fenzhiname 把分支和主线合并
 git remote add origin https://github.com/wangzhemin/second.git
 与远程仓库对接
